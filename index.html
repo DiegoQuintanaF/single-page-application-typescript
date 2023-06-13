@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Page of randoms cats." />
+    <title>The Michi's Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="anchor" href="/">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="anchor" href="#/favorites/">Favorites</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- <div class="card-container" id="${cat.id}">
+        <figure class="card-img-container">
+          <img
+            src="https://cdn2.thecatapi.com/images/2m7.jpg"
+            class="card-img"
+            alt="gatito aleatorio"
+          />
+        </figure>
+        <div class="card-btn-container">
+          <button
+            class="card-btn"
+            id="btn-${cat.id}"
+          >
+            Add to fovorit
+          </button>
+        </div>
+      </div> -->
+
+      <h1 class="main__title">Random Michis</h1>
+      <div class="cards-container" id="app">
+        <!-- Cards of michis here -->
+      </div>
+      <div class="sig-btn-container">
+        <button id="sig-btn">More Michis</button>
+      </div>
+    </main>
+
+    <footer class="footer">Diego Quintana 2023 &copy;</footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
